@@ -1,0 +1,32 @@
+{
+  "rows": 120000,
+  "features": 68,
+  "models": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9749666666666666,
+      "balanced_accuracy": 0.9750854880961649,
+      "precision_attack": 0.9691175409481203,
+      "recall_attack": 0.9765159226406863,
+      "f1_attack": 0.9728026654112194,
+      "false_positive_rate": 0.02634494644835652,
+      "tn": 15818,
+      "fp": 428,
+      "fn": 323,
+      "tp": 13431
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.9992,
+      "balanced_accuracy": 0.9991832890810263,
+      "precision_attack": 0.9992727272727273,
+      "recall_attack": 0.9989821142940235,
+      "f1_attack": 0.9991273996509599,
+      "false_positive_rate": 0.0006155361319709467,
+      "tn": 16236,
+      "fp": 10,
+      "fn": 14,
+      "tp": 13740
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "train_file": "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+  "test_file": "Wednesday-workingHours.pcap_ISCX.csv",
+  "train_rows": 30000,
+  "test_rows": 30000,
+  "features": 68,
+  "models": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.7269666666666666,
+      "balanced_accuracy": 0.6214038189692158,
+      "precision_attack": 0.9898686679174484,
+      "recall_attack": 0.24421403443806702,
+      "f1_attack": 0.39177248087918615,
+      "false_positive_rate": 0.0014063964996353787,
+      "tn": 19171,
+      "fp": 27,
+      "fn": 8164,
+      "tp": 2638
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.7125,
+      "balanced_accuracy": 0.6007886195714973,
+      "precision_attack": 0.9995410738871042,
+      "recall_attack": 0.20162932790224034,
+      "f1_attack": 0.33556736769124107,
+      "false_positive_rate": 5.208875924575477e-05,
+      "tn": 19197,
+      "fp": 1,
+      "fn": 8624,
+      "tp": 2178
+    }
+  ]
+}
